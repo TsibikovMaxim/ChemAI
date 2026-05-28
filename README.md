@@ -121,3 +121,5 @@ CORR_THRESHOLD    = 0.95 # порог корреляции для удалени
 | **Kaggle LB RMSE** | — | — | — | **—** |
 
 LB score: 319
+<img width="1545" height="242" alt="image" src="https://github.com/user-attachments/assets/cc174ffb-36ed-4f40-8fa8-183beb626ec0" />
+
