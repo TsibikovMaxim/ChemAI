@@ -1,4 +1,6 @@
-# ChemAI
+# ChemAI: Predict the Cure
+
+**Команда 1 — Ястребы**
 
 Предсказание биологической активности химических соединений против вируса гриппа.
 
@@ -66,13 +68,15 @@ chemai-predict-the-cure/
 │   └── .gitkeep
 │
 ├── notebooks/
-│   ├── 01_eda.ipynb       # EDA: распределения, корреляции, инсайты
-│   └── solution.ipynb     # Основное решение (полный пайплайн)
+│   ├── 01_eda.ipynb                  # EDA: распределения, корреляции, инсайты
+│   ├── 02_feature_engineering.ipynb  # Инженерия признаков: обоснование трансформаций
+│   └── solution.ipynb                # Основное решение (полный пайплайн)
 │
 ├── submissions/
-│   └── submission.csv     # Финальный сабмит
+│   └── baseline_v1.csv       # Сабмит v1 (первый)
 │
-├── experiments.md         # Лог экспериментов
+├── submission.csv            # Финальный сабмит (отправляется на Kaggle)
+├── experiments.md            # Лог экспериментов
 ├── requirements.txt
 └── README.md
 ```
@@ -84,7 +88,7 @@ chemai-predict-the-cure/
 ```bash
 python -m venv .venv
 .venv\Scripts\activate      # Windows
-# source .venv/bin/activate  # Linux/Mac
+# source .venv/bin/activate  # для Linux/macOS
 pip install -r requirements.txt
 ```
 
